@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
  
   s.ios.deployment_target = '10.0'
   s.source_files  = "AlgoTester/**/*.{swift,h,m}"
- 
+  s.resources = "AlgoTester/**/*.{lproj,storyboard,xcdatamodeld,xib,nib,xcassets,json}"
 end
