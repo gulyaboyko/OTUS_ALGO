@@ -30,7 +30,7 @@ public final class Tester {
         do {
             let inFileData = try String(contentsOfFile: inFile, encoding: .utf8)
             let inFileStrings = inFileData.components(separatedBy: .newlines)
-            let extectedResult = try String(contentsOfFile: outFile, encoding: .utf8).trimmingCharacters(in: .whitespaces)
+            let extectedResult = try String(contentsOfFile: outFile, encoding: .utf8).components(separatedBy: .newlines)[0].trimmingCharacters(in: .whitespaces)
             let actualResult = task.run(data: inFileStrings)
             return actualResult == extectedResult
         } catch {
