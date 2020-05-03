@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE70D3C5245F1AB80018DD77 /* AlgoTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE70D3BB245F1AB80018DD77 /* AlgoTester.framework */; };
+		AE70D3CA245F1AB80018DD77 /* AlgoTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70D3C9245F1AB80018DD77 /* AlgoTesterTests.swift */; };
+		AE70D3CC245F1AB80018DD77 /* AlgoTester.h in Headers */ = {isa = PBXBuildFile; fileRef = AE70D3BE245F1AB80018DD77 /* AlgoTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE70D3C6245F1AB80018DD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE70D3B2245F1AB80018DD77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE70D3BA245F1AB80018DD77;
+			remoteInfo = AlgoTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE70D3BB245F1AB80018DD77 /* AlgoTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70D3BE245F1AB80018DD77 /* AlgoTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgoTester.h; sourceTree = "<group>"; };
+		AE70D3BF245F1AB80018DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70D3C4245F1AB80018DD77 /* AlgoTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE70D3C9245F1AB80018DD77 /* AlgoTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoTesterTests.swift; sourceTree = "<group>"; };
+		AE70D3CB245F1AB80018DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE70D3B8245F1AB80018DD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70D3C1245F1AB80018DD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70D3C5245F1AB80018DD77 /* AlgoTester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE70D3B1245F1AB80018DD77 = {
+			isa = PBXGroup;
+			children = (
+				AE70D3BD245F1AB80018DD77 /* AlgoTester */,
+				AE70D3C8245F1AB80018DD77 /* AlgoTesterTests */,
+				AE70D3BC245F1AB80018DD77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE70D3BC245F1AB80018DD77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE70D3BB245F1AB80018DD77 /* AlgoTester.framework */,
+				AE70D3C4245F1AB80018DD77 /* AlgoTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE70D3BD245F1AB80018DD77 /* AlgoTester */ = {
+			isa = PBXGroup;
+			children = (
+				AE70D3BE245F1AB80018DD77 /* AlgoTester.h */,
+				AE70D3BF245F1AB80018DD77 /* Info.plist */,
+			);
+			path = AlgoTester;
+			sourceTree = "<group>";
+		};
+		AE70D3C8245F1AB80018DD77 /* AlgoTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE70D3C9245F1AB80018DD77 /* AlgoTesterTests.swift */,
+				AE70D3CB245F1AB80018DD77 /* Info.plist */,
+			);
+			path = AlgoTesterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE70D3B6245F1AB80018DD77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70D3CC245F1AB80018DD77 /* AlgoTester.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AE70D3BA245F1AB80018DD77 /* AlgoTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70D3CF245F1AB80018DD77 /* Build configuration list for PBXNativeTarget "AlgoTester" */;
+			buildPhases = (
+				AE70D3B6245F1AB80018DD77 /* Headers */,
+				AE70D3B7245F1AB80018DD77 /* Sources */,
+				AE70D3B8245F1AB80018DD77 /* Frameworks */,
+				AE70D3B9245F1AB80018DD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoTester;
+			productName = AlgoTester;
+			productReference = AE70D3BB245F1AB80018DD77 /* AlgoTester.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE70D3C3245F1AB80018DD77 /* AlgoTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE70D3D2245F1AB80018DD77 /* Build configuration list for PBXNativeTarget "AlgoTesterTests" */;
+			buildPhases = (
+				AE70D3C0245F1AB80018DD77 /* Sources */,
+				AE70D3C1245F1AB80018DD77 /* Frameworks */,
+				AE70D3C2245F1AB80018DD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE70D3C7245F1AB80018DD77 /* PBXTargetDependency */,
+			);
+			name = AlgoTesterTests;
+			productName = AlgoTesterTests;
+			productReference = AE70D3C4245F1AB80018DD77 /* AlgoTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE70D3B2245F1AB80018DD77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = com.gulya.boiko;
+				TargetAttributes = {
+					AE70D3BA245F1AB80018DD77 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					AE70D3C3245F1AB80018DD77 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = AE70D3B5245F1AB80018DD77 /* Build configuration list for PBXProject "AlgoTester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE70D3B1245F1AB80018DD77;
+			productRefGroup = AE70D3BC245F1AB80018DD77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE70D3BA245F1AB80018DD77 /* AlgoTester */,
+				AE70D3C3245F1AB80018DD77 /* AlgoTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE70D3B9245F1AB80018DD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70D3C2245F1AB80018DD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE70D3B7245F1AB80018DD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE70D3C0245F1AB80018DD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE70D3CA245F1AB80018DD77 /* AlgoTesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE70D3C7245F1AB80018DD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE70D3BA245F1AB80018DD77 /* AlgoTester */;
+			targetProxy = AE70D3C6245F1AB80018DD77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE70D3CD245F1AB80018DD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE70D3CE245F1AB80018DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE70D3D0245F1AB80018DD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UBR9UU276M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlgoTester/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.AlgoTester;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE70D3D1245F1AB80018DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UBR9UU276M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AlgoTester/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.AlgoTester;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AE70D3D3245F1AB80018DD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBR9UU276M;
+				INFOPLIST_FILE = AlgoTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.AlgoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE70D3D4245F1AB80018DD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBR9UU276M;
+				INFOPLIST_FILE = AlgoTesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.AlgoTesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE70D3B5245F1AB80018DD77 /* Build configuration list for PBXProject "AlgoTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70D3CD245F1AB80018DD77 /* Debug */,
+				AE70D3CE245F1AB80018DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70D3CF245F1AB80018DD77 /* Build configuration list for PBXNativeTarget "AlgoTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70D3D0245F1AB80018DD77 /* Debug */,
+				AE70D3D1245F1AB80018DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE70D3D2245F1AB80018DD77 /* Build configuration list for PBXNativeTarget "AlgoTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE70D3D3245F1AB80018DD77 /* Debug */,
+				AE70D3D4245F1AB80018DD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE70D3B2245F1AB80018DD77 /* Project object */;
+}
