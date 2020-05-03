@@ -10,6 +10,8 @@
 		AE70D3C5245F1AB80018DD77 /* AlgoTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE70D3BB245F1AB80018DD77 /* AlgoTester.framework */; };
 		AE70D3CA245F1AB80018DD77 /* AlgoTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70D3C9245F1AB80018DD77 /* AlgoTesterTests.swift */; };
 		AE70D3CC245F1AB80018DD77 /* AlgoTester.h in Headers */ = {isa = PBXBuildFile; fileRef = AE70D3BE245F1AB80018DD77 /* AlgoTester.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE70D3D6245F1ACF0018DD77 /* Tester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70D3D5245F1ACF0018DD77 /* Tester.swift */; };
+		AE70D3EF245F1DB60018DD77 /* Testable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70D3EE245F1DB60018DD77 /* Testable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		AE70D3C4245F1AB80018DD77 /* AlgoTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgoTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE70D3C9245F1AB80018DD77 /* AlgoTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoTesterTests.swift; sourceTree = "<group>"; };
 		AE70D3CB245F1AB80018DD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE70D3D5245F1ACF0018DD77 /* Tester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tester.swift; sourceTree = "<group>"; };
+		AE70D3EE245F1DB60018DD77 /* Testable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				AE70D3BE245F1AB80018DD77 /* AlgoTester.h */,
 				AE70D3BF245F1AB80018DD77 /* Info.plist */,
+				AE70D3D5245F1ACF0018DD77 /* Tester.swift */,
+				AE70D3EE245F1DB60018DD77 /* Testable.swift */,
 			);
 			path = AlgoTester;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					AE70D3BA245F1AB80018DD77 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					AE70D3C3245F1AB80018DD77 = {
 						CreatedOnToolsVersion = 11.3;
@@ -195,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE70D3D6245F1ACF0018DD77 /* Tester.swift in Sources */,
+				AE70D3EF245F1DB60018DD77 /* Testable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +348,7 @@
 		AE70D3D0245F1AB80018DD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -356,6 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.AlgoTester;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -363,6 +374,7 @@
 		AE70D3D1245F1AB80018DD77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -387,6 +399,7 @@
 		AE70D3D3245F1AB80018DD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -405,6 +418,7 @@
 		AE70D3D4245F1AB80018DD77 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
